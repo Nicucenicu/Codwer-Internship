@@ -50,8 +50,8 @@ public class Program
             }
         }
         Console.WriteLine(list.Count + " animale mananca mancare.");
-        Console.WriteLine(list.Where(x => x.TipAnimal == "carnivor").Count() + " animale mananca mancare.");
-        Console.WriteLine(list.Where(x => x.TipAnimal == "erbivor").Count() + " animale mananca mancare.");
+        Console.WriteLine(list.Where(x => x.TipAnimal == "carnivor").Count() + " animale mananca carne.");
+        Console.WriteLine(list.Where(x => x.TipAnimal == "erbivor").Count() + " animale mananca plante.");
 
     }
     static Animal CreazaAnimal(Animal.TipdeAnimale tipAnimal, string nume, decimal greutate, Dimensiune dimensiune, decimal viteza)
